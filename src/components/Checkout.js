@@ -12,8 +12,6 @@ const Checkout = () => {
         actualizarTotal()
     },[checkout])
 
-
-    console.log(checkout)
     return (
         
                 <div class="w-2/5 mb-8">
@@ -46,7 +44,7 @@ const Checkout = () => {
                                 <h3 class="text-gray-600">Total de la orden: {`$${total} USD`}</h3>
                         </div>
 
-                        <button type="button" class="w-full items-center px-6 py-3 mt-10 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <button type="button" class="btn-indigo">
                             Pagar
                         </button>
                         
